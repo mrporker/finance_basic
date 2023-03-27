@@ -1,0 +1,125 @@
+<mxfile host="65bd71144e">
+    <diagram id="Mi2rxfgbHiu5LQuISK1p" name="Page-1">
+        <mxGraphModel dx="948" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="29" value="普通买卖-交易流程图" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="50" width="680" height="710" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="日间" style="swimlane;startSize=20;horizontal=0;html=1;" parent="29" vertex="1">
+                    <mxGeometry y="20" width="680" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="group" parent="30" vertex="1" connectable="0">
+                    <mxGeometry x="20" width="660" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="投资人" style="swimlane;" parent="59" vertex="1">
+                    <mxGeometry width="212.5423728813559" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="现货交易账号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="33">
+                    <mxGeometry x="63.41" y="110" width="85.73" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="两融交易账号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="33">
+                    <mxGeometry x="63.41" y="200" width="85.73" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="证券公司" style="swimlane;" parent="59" vertex="1">
+                    <mxGeometry x="212.5386440677966" width="220" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="现货柜台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="36">
+                    <mxGeometry x="67.72999999999999" y="110" width="84.54" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="两融柜台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="36">
+                    <mxGeometry x="69" y="200" width="82" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="交易所&amp;登记结算公司" style="swimlane;" parent="59" vertex="1">
+                    <mxGeometry x="432.5386440677966" width="220" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="交易所" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="38">
+                    <mxGeometry x="68" y="50" width="84" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="委托证券公司买卖" style="edgeStyle=none;html=1;" edge="1" parent="59" source="66" target="75">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="59" source="75" target="86">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="委托" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="92">
+                    <mxGeometry x="-0.1214" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="59" source="86" target="75">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="94">
+                    <mxGeometry x="-0.1431" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="98" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="59" source="86" target="75">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="成交回报" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="98">
+                    <mxGeometry x="-0.0259" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="日终" style="swimlane;startSize=20;horizontal=0;html=1;" parent="29" vertex="1">
+                    <mxGeometry y="360" width="680" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="group" parent="31" vertex="1" connectable="0">
+                    <mxGeometry x="20" width="660" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="swimlane;startSize=0;" parent="61" vertex="1">
+                    <mxGeometry width="212.5423728813559" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="现货证券账号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="62">
+                    <mxGeometry x="62.98" y="145" width="86.59" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="两融证券账号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="62">
+                    <mxGeometry x="63.41" y="240" width="86.59" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="资金账号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="62">
+                    <mxGeometry x="62.97999999999999" y="60" width="86.59" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="swimlane;startSize=0;" parent="61" vertex="1">
+                    <mxGeometry x="212.5386440677966" width="220" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="清算系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="63">
+                    <mxGeometry x="68.99999999999997" y="148" width="82" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="swimlane;startSize=0;" parent="61" vertex="1">
+                    <mxGeometry x="432.5386440677966" width="220" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="登记结算公司" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="64">
+                    <mxGeometry x="68" y="30" width="84" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="上海下发jsmx02/jsmx03&lt;br&gt;深圳下发sjsmx1/sjsjg" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="61" source="101" target="114">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="61" source="114" target="119">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="股份交收" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="123">
+                    <mxGeometry x="0.0541" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="124" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="61" source="114" target="121">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="资金交收" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="124">
+                    <mxGeometry x="0.0579" relative="1" as="geometry">
+                        <mxPoint y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="112" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="29" source="86" target="101">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="29" source="101" target="86">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
